@@ -4,7 +4,7 @@ title: Blog
 ---
 
 <!-- Show last 5 posts here -->
-{% for post in paginator.posts %}
+{% for post in site.posts %}
 	<article>
 
         <header>
